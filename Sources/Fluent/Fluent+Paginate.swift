@@ -15,4 +15,4 @@ extension QueryBuilder {
     }
 }
 
-extension Page: Content, ResponseEncodable, RequestDecodable, AsyncResponseEncodable, AsyncRequestDecodable where T: Codable { }
+extension Page: @retroactive Content, @retroactive ResponseEncodable, @retroactive RequestDecodable, @retroactive AsyncResponseEncodable, @retroactive AsyncRequestDecodable where T: Codable { }
